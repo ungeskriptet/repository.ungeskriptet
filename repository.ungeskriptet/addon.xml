@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="repository.ungeskriptet" name="Ungeskriptet's Add-on Repo" version="1.0.0" provider-name="Ungeskriptet">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="Ungeskriptet's Add-on Repo">
+            <info compressed="false">https://raw.githubusercontent.com/ungeskriptet/repository.ungeskriptet/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/ungeskriptet/repository.ungeskriptet/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/ungeskriptet/repository.ungeskriptet/master</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Download Kodi add-ons by Ungeskriptet</summary>
+            <platform>all</platform>
+            <assets>
+        	<icon>resources/icon.jpg</icon>
+    	    </assets>
+    </extension>
+</addon>

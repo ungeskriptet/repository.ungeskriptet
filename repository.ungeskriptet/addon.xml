@@ -13,7 +13,7 @@
             <summary>Download Kodi add-ons by Ungeskriptet</summary>
             <platform>all</platform>
             <assets>
-        	<icon>resources/icon.jpg</icon>
+        	<icon>resources/icon.png</icon>
     	    </assets>
     </extension>
 </addon>
